@@ -1,0 +1,1085 @@
+{"level":30,"time":"2025-04-29T07:46:28.090Z","pid":40024,"hostname":"linux","msg":"Listening on 40053"}
+(node:40024) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-04-29T07:46:28.160Z","pid":40024,"hostname":"linux","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-29T07:46:28.160Z","pid":40024,"hostname":"linux","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-29T07:46:28.166Z","pid":40024,"hostname":"linux","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-29T07:46:28.166Z","pid":40024,"hostname":"linux","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (/home/tluser/.local/lib/python3.8/site-packages/Browser/wrapper/index.js:10748:15)
+    at PlaywrightServer.getActiveBrowser (/home/tluser/.local/lib/python3.8/site-packages/Browser/wrapper/index.js:11364:59)
+    at PlaywrightServer.setTimeout (/home/tluser/.local/lib/python3.8/site-packages/Browser/wrapper/index.js:11603:57)
+    at Object.onReceiveHalfClose (/home/tluser/.local/lib/python3.8/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1425:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/tluser/.local/lib/python3.8/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:569:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/tluser/.local/lib/python3.8/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:609:14)
+    at ServerHttp2Stream.<anonymous> (/home/tluser/.local/lib/python3.8/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2025-04-29T07:46:28.200Z","pid":40024,"hostname":"linux","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-04-29T07:46:28.425Z","pid":40024,"hostname":"linux","msg":"Adding browser to stack: chromium, version: 129.0.6668.29"}
+{"level":30,"time":"2025-04-29T07:46:28.426Z","pid":40024,"hostname":"linux","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-04-29T07:46:28.426Z","pid":40024,"hostname":"linux","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-04-29T07:46:28.434Z","pid":40024,"hostname":"linux","msg":"Start of node method newContext"}
+{"level":30,"time":"2025-04-29T07:46:28.434Z","pid":40024,"hostname":"linux","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-04-29T07:46:28.434Z","pid":40024,"hostname":"linux","msg":"Trace file: "}
+{"level":30,"time":"2025-04-29T07:46:28.452Z","pid":40024,"hostname":"linux","msg":"Changed active context"}
+{"level":30,"time":"2025-04-29T07:46:28.452Z","pid":40024,"hostname":"linux","msg":"End of node method newContext"}
+{"level":30,"time":"2025-04-29T07:46:28.467Z","pid":40024,"hostname":"linux","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-04-29T07:46:28.468Z","pid":40024,"hostname":"linux","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-04-29T07:46:29.193Z","pid":40024,"hostname":"linux","msg":"Video path: undefined"}
+{"level":30,"time":"2025-04-29T07:46:29.194Z","pid":40024,"hostname":"linux","msg":"Changed active page"}
+{"level":30,"time":"2025-04-29T07:46:32.827Z","pid":40024,"hostname":"linux","msg":"End of node method newPage"}
+{"level":30,"time":"2025-04-29T07:46:32.844Z","pid":40024,"hostname":"linux","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-04-29T07:46:32.845Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //ion-input[@label=\"รหัสผู้ใช้งาน\"]//input in page."}
+{"level":30,"time":"2025-04-29T07:46:33.001Z","pid":40024,"hostname":"linux","msg":"End of node method typeText"}
+{"level":30,"time":"2025-04-29T07:46:33.011Z","pid":40024,"hostname":"linux","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-04-29T07:46:33.011Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //ion-input[@label=\"รหัสผ่าน\"]//input in page."}
+{"level":30,"time":"2025-04-29T07:46:33.077Z","pid":40024,"hostname":"linux","msg":"End of node method typeText"}
+{"level":30,"time":"2025-04-29T07:46:33.088Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:46:33.088Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //button[contains(text(),\"เข้าสู่ระบบ\")] in page."}
+{"level":30,"time":"2025-04-29T07:46:33.168Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:46:33.186Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:46:33.186Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //button[contains(text(),\"สร้างผู้มุ่งหวัง\")] in page."}
+{"level":30,"time":"2025-04-29T07:46:37.723Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:46:37.731Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:46:37.731Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //app-quotation//label[contains(text(),\"คำนำหน้า\")]/following-sibling::div//input in page."}
+{"level":30,"time":"2025-04-29T07:46:39.543Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:46:39.551Z","pid":40024,"hostname":"linux","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-04-29T07:46:39.551Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //app-quotation//label[contains(text(),\"คำนำหน้า\")]/following-sibling::div//input in page."}
+{"level":30,"time":"2025-04-29T07:46:39.611Z","pid":40024,"hostname":"linux","msg":"End of node method typeText"}
+{"level":30,"time":"2025-04-29T07:46:39.621Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:46:39.621Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //*[@id=\"suggestions\"]//*[text()=\"นาย\"] in page."}
+{"level":30,"time":"2025-04-29T07:46:39.729Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:46:39.736Z","pid":40024,"hostname":"linux","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-04-29T07:46:39.736Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //app-quotation//input[@formcontrolname=\"firstname\"] in page."}
+{"level":30,"time":"2025-04-29T07:46:39.787Z","pid":40024,"hostname":"linux","msg":"End of node method typeText"}
+{"level":30,"time":"2025-04-29T07:46:39.795Z","pid":40024,"hostname":"linux","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-04-29T07:46:39.795Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //app-quotation//input[@formcontrolname=\"lastname\"] in page."}
+{"level":30,"time":"2025-04-29T07:46:39.842Z","pid":40024,"hostname":"linux","msg":"End of node method typeText"}
+{"level":30,"time":"2025-04-29T07:46:39.850Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:46:39.851Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //app-quotation//input[@formcontrolname=\"dateOfBirth\"] in page."}
+{"level":30,"time":"2025-04-29T07:46:39.995Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:46:41.046Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.066Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.075Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.146Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.162Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.169Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.179Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.184Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.194Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.195Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.207Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.209Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.218Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.222Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.232Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.234Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.260Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.266Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.286Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.290Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.305Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.307Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.320Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.323Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.338Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.340Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.351Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.353Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.366Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.368Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.377Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.379Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.389Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.391Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.408Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.410Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.429Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.433Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.454Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.456Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.467Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.469Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.483Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.487Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.505Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.507Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.518Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.520Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.529Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.532Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.542Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.544Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.555Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.557Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.568Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.571Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.590Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.592Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.609Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.611Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.629Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.633Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.649Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.652Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.661Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.664Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.680Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.683Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.692Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.694Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.706Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.707Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.718Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.720Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.734Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.738Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.755Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.758Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.774Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.776Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.790Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.792Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.803Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.806Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.823Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.825Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.840Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.841Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.853Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.857Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.870Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.873Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.889Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.891Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.908Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.910Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.929Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.933Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.948Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.954Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.969Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.972Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.982Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.984Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.993Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:41.996Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:42.010Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:42.014Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:42.032Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:42.034Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:42.049Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:42.052Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:42.066Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:42.070Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:42.082Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:42.084Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:42.094Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:42.096Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:42.112Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:42.116Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:42.126Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:42.128Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:42.139Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:42.140Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:43.172Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:43.186Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:44.232Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:44.242Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:45.287Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:45.299Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:46.852Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:46.860Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:47.877Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:46:47.877Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //ion-datetime[@id=\"datetimeQuotation\"]//ion-button[text()=\"ตกลง\"] in page."}
+{"level":30,"time":"2025-04-29T07:46:48.121Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:46:50.140Z","pid":40024,"hostname":"linux","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-04-29T07:46:50.141Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //*[@formcontrolname=\"phoneNumber\"] in page."}
+{"level":30,"time":"2025-04-29T07:46:50.261Z","pid":40024,"hostname":"linux","msg":"End of node method typeText"}
+{"level":30,"time":"2025-04-29T07:46:50.274Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:46:50.274Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //*[@id=\"quotation.refCode\"]//ion-checkbox[text()=\"ไม่มี\"] in page."}
+{"level":30,"time":"2025-04-29T07:46:50.356Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:46:50.367Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:46:50.367Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //ion-fab-button[contains(text(),\"ถัดไป\")] in page."}
+{"level":30,"time":"2025-04-29T07:46:50.502Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:46:50.508Z","pid":40024,"hostname":"linux","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-04-29T07:46:50.508Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //app-plancode//label[contains(text(),\"อาชีพ\")]//following-sibling::app-autocomplete//input in page."}
+{"level":30,"time":"2025-04-29T07:46:51.304Z","pid":40024,"hostname":"linux","msg":"End of node method typeText"}
+{"level":30,"time":"2025-04-29T07:46:51.309Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:46:51.309Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //div[@class=\"ddl-autocomplete\"]//label[text()=\"เจ้าของโรงงาน / บริหารกิจการ\"] in page."}
+{"level":30,"time":"2025-04-29T07:46:51.377Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:46:51.387Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:46:51.387Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //app-plancode//button[@id=\"quotation.planList.ol.display\"]//ion-checkbox in page."}
+{"level":30,"time":"2025-04-29T07:46:51.490Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:46:51.494Z","pid":40024,"hostname":"linux","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-04-29T07:46:51.494Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //app-plancode//label[contains(text(),\"แบบประกัน\")]//following-sibling::app-autocomplete//input in page."}
+{"level":30,"time":"2025-04-29T07:46:52.973Z","pid":40024,"hostname":"linux","msg":"End of node method typeText"}
+{"level":30,"time":"2025-04-29T07:46:52.979Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:46:52.979Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //div[@class=\"ddl-autocomplete\"]//label[contains(text(),\"GA22\")] in page."}
+{"level":30,"time":"2025-04-29T07:46:53.059Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:46:53.073Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:46:53.073Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //ion-fab-button[contains(text(),\"ถัดไป\")] in page."}
+{"level":30,"time":"2025-04-29T07:46:53.528Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:46:53.538Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:46:53.538Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //app-plan-detail//input[@id=\"calType1\"] in page."}
+{"level":30,"time":"2025-04-29T07:46:54.567Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:46:54.572Z","pid":40024,"hostname":"linux","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-04-29T07:46:54.572Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //*[@formcontrolname=\"premium\"] in page."}
+{"level":30,"time":"2025-04-29T07:46:54.724Z","pid":40024,"hostname":"linux","msg":"End of node method typeText"}
+{"level":30,"time":"2025-04-29T07:46:54.730Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:46:54.731Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //button[contains(text(),\"คำนวณ\")] in page."}
+{"level":30,"time":"2025-04-29T07:46:54.812Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:46:54.821Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:46:54.821Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //ion-fab-button[contains(text(),\"ถัดไป\")] in page."}
+{"level":30,"time":"2025-04-29T07:46:55.937Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:46:55.951Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:46:55.951Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //ion-fab-button[contains(text(),\"ถัดไป\")] in page."}
+{"level":30,"time":"2025-04-29T07:46:57.722Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:46:58.770Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:58.790Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:46:58.797Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:46:58.797Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //*[@id=\"header\"]/ion-toolbar[2]/ion-segment/ion-segment-button[1] in page."}
+{"level":30,"time":"2025-04-29T07:47:01.882Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:47:01.903Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:47:01.903Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //button[contains(text(),\"สร้างผู้มุ่งหวัง\")] in page."}
+{"level":30,"time":"2025-04-29T07:47:02.978Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:47:02.997Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:47:02.998Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //app-quotation//label[contains(text(),\"คำนำหน้า\")]/following-sibling::div//input in page."}
+{"level":30,"time":"2025-04-29T07:47:03.757Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:47:03.762Z","pid":40024,"hostname":"linux","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-04-29T07:47:03.762Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //app-quotation//label[contains(text(),\"คำนำหน้า\")]/following-sibling::div//input in page."}
+{"level":30,"time":"2025-04-29T07:47:03.807Z","pid":40024,"hostname":"linux","msg":"End of node method typeText"}
+{"level":30,"time":"2025-04-29T07:47:03.814Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:47:03.814Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //*[@id=\"suggestions\"]//*[text()=\"นาย\"] in page."}
+{"level":30,"time":"2025-04-29T07:47:03.933Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:47:03.938Z","pid":40024,"hostname":"linux","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-04-29T07:47:03.938Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //app-quotation//input[@formcontrolname=\"firstname\"] in page."}
+{"level":30,"time":"2025-04-29T07:47:03.991Z","pid":40024,"hostname":"linux","msg":"End of node method typeText"}
+{"level":30,"time":"2025-04-29T07:47:04.000Z","pid":40024,"hostname":"linux","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-04-29T07:47:04.000Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //app-quotation//input[@formcontrolname=\"lastname\"] in page."}
+{"level":30,"time":"2025-04-29T07:47:04.047Z","pid":40024,"hostname":"linux","msg":"End of node method typeText"}
+{"level":30,"time":"2025-04-29T07:47:04.055Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:47:04.055Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //app-quotation//input[@formcontrolname=\"dateOfBirth\"] in page."}
+{"level":30,"time":"2025-04-29T07:47:04.192Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:47:05.226Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.238Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.247Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.291Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.303Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.305Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.321Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.322Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.337Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.344Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.360Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.364Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.382Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.385Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.403Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.405Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.419Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.422Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.438Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.440Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.452Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.454Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.468Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.470Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.483Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.486Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.495Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.498Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.507Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.509Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.523Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.525Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.541Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.543Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.562Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.565Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.582Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.584Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.594Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.597Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.615Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.617Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.626Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.630Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.639Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.641Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.652Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.653Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.663Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.665Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.676Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.680Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.698Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.702Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.719Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.722Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.738Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.740Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.751Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.753Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.763Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.765Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.784Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.787Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.798Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.800Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.809Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.812Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.821Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.823Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.834Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.836Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.846Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.848Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.861Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.865Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.880Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.883Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.907Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.910Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.924Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.926Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.944Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.948Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.957Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.959Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.970Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.972Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.983Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.985Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.995Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:05.999Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:06.008Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:06.012Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:06.023Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:06.024Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:06.040Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:06.042Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:06.058Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:06.060Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:06.080Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:06.084Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:06.098Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:06.100Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:06.113Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:06.115Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:06.129Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:06.132Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:06.147Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:06.149Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:06.162Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:06.165Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:06.176Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:06.180Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:06.188Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:06.190Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:06.202Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:06.204Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:06.219Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:06.221Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:06.236Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:06.238Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:06.255Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:06.257Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:07.305Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:07.316Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:08.347Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:08.357Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:09.395Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:09.405Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:10.924Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:10.934Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:11.952Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:47:11.953Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //ion-datetime[@id=\"datetimeQuotation\"]//ion-button[text()=\"ตกลง\"] in page."}
+{"level":30,"time":"2025-04-29T07:47:12.092Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:47:14.111Z","pid":40024,"hostname":"linux","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-04-29T07:47:14.111Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //*[@formcontrolname=\"phoneNumber\"] in page."}
+{"level":30,"time":"2025-04-29T07:47:14.241Z","pid":40024,"hostname":"linux","msg":"End of node method typeText"}
+{"level":30,"time":"2025-04-29T07:47:14.252Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:47:14.252Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //*[@id=\"quotation.refCode\"]//ion-checkbox[text()=\"ไม่มี\"] in page."}
+{"level":30,"time":"2025-04-29T07:47:14.321Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:47:14.331Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:47:14.331Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //ion-fab-button[contains(text(),\"ถัดไป\")] in page."}
+{"level":30,"time":"2025-04-29T07:47:14.408Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:47:14.418Z","pid":40024,"hostname":"linux","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-04-29T07:47:14.418Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //app-plancode//label[contains(text(),\"อาชีพ\")]//following-sibling::app-autocomplete//input in page."}
+{"level":30,"time":"2025-04-29T07:47:15.553Z","pid":40024,"hostname":"linux","msg":"End of node method typeText"}
+{"level":30,"time":"2025-04-29T07:47:15.558Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:47:15.558Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //div[@class=\"ddl-autocomplete\"]//label[text()=\"เจ้าของโรงงาน / บริหารกิจการ\"] in page."}
+{"level":30,"time":"2025-04-29T07:47:15.620Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:47:15.627Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:47:15.627Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //app-plancode//button[@id=\"quotation.planList.ol.display\"]//ion-checkbox in page."}
+{"level":30,"time":"2025-04-29T07:47:15.758Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:47:15.766Z","pid":40024,"hostname":"linux","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-04-29T07:47:15.766Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //app-plancode//label[contains(text(),\"แบบประกัน\")]//following-sibling::app-autocomplete//input in page."}
+{"level":30,"time":"2025-04-29T07:47:17.258Z","pid":40024,"hostname":"linux","msg":"End of node method typeText"}
+{"level":30,"time":"2025-04-29T07:47:17.266Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:47:17.267Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //div[@class=\"ddl-autocomplete\"]//label[contains(text(),\"GE28\")] in page."}
+{"level":30,"time":"2025-04-29T07:47:17.325Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:47:17.334Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:47:17.334Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //ion-fab-button[contains(text(),\"ถัดไป\")] in page."}
+{"level":30,"time":"2025-04-29T07:47:17.795Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:47:17.803Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:47:17.803Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //app-plan-detail//input[@id=\"calType1\"] in page."}
+{"level":30,"time":"2025-04-29T07:47:18.299Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:47:18.304Z","pid":40024,"hostname":"linux","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-04-29T07:47:18.304Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //*[@formcontrolname=\"premium\"] in page."}
+{"level":30,"time":"2025-04-29T07:47:18.408Z","pid":40024,"hostname":"linux","msg":"End of node method typeText"}
+{"level":30,"time":"2025-04-29T07:47:18.416Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:47:18.416Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //button[contains(text(),\"คำนวณ\")] in page."}
+{"level":30,"time":"2025-04-29T07:47:18.490Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:47:18.499Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:47:18.499Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //ion-fab-button[contains(text(),\"ถัดไป\")] in page."}
+{"level":30,"time":"2025-04-29T07:47:19.021Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:47:19.034Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:47:19.034Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //ion-fab-button[contains(text(),\"ถัดไป\")] in page."}
+{"level":30,"time":"2025-04-29T07:47:20.888Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:47:21.912Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:21.933Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:21.938Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:47:21.938Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //*[@id=\"header\"]/ion-toolbar[2]/ion-segment/ion-segment-button[1] in page."}
+{"level":30,"time":"2025-04-29T07:47:23.294Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:47:23.307Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:47:23.307Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //button[contains(text(),\"สร้างผู้มุ่งหวัง\")] in page."}
+{"level":30,"time":"2025-04-29T07:47:24.254Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:47:24.262Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:47:24.262Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //app-quotation//label[contains(text(),\"คำนำหน้า\")]/following-sibling::div//input in page."}
+{"level":30,"time":"2025-04-29T07:47:24.896Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:47:24.903Z","pid":40024,"hostname":"linux","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-04-29T07:47:24.903Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //app-quotation//label[contains(text(),\"คำนำหน้า\")]/following-sibling::div//input in page."}
+{"level":30,"time":"2025-04-29T07:47:24.973Z","pid":40024,"hostname":"linux","msg":"End of node method typeText"}
+{"level":30,"time":"2025-04-29T07:47:24.982Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:47:24.982Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //*[@id=\"suggestions\"]//*[text()=\"นาง\"] in page."}
+{"level":30,"time":"2025-04-29T07:47:25.071Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:47:25.080Z","pid":40024,"hostname":"linux","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-04-29T07:47:25.080Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //app-quotation//input[@formcontrolname=\"firstname\"] in page."}
+{"level":30,"time":"2025-04-29T07:47:25.123Z","pid":40024,"hostname":"linux","msg":"End of node method typeText"}
+{"level":30,"time":"2025-04-29T07:47:25.133Z","pid":40024,"hostname":"linux","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-04-29T07:47:25.133Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //app-quotation//input[@formcontrolname=\"lastname\"] in page."}
+{"level":30,"time":"2025-04-29T07:47:25.179Z","pid":40024,"hostname":"linux","msg":"End of node method typeText"}
+{"level":30,"time":"2025-04-29T07:47:25.189Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:47:25.189Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //app-quotation//input[@formcontrolname=\"dateOfBirth\"] in page."}
+{"level":30,"time":"2025-04-29T07:47:25.337Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:47:26.383Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.394Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.400Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.448Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.459Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.462Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.471Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.473Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.498Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.500Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.523Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.526Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.541Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.544Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.554Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.557Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.571Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.573Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.587Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.589Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.602Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.604Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.614Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.617Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.629Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.630Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.642Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.644Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.660Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.662Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.677Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.680Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.700Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.702Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.716Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.718Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.730Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.733Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.749Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.751Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.762Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.764Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.773Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.776Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.786Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.787Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.798Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.800Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.813Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.816Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.834Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.836Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.852Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.854Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.873Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.877Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.893Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.896Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.911Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.914Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.932Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.934Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.945Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.947Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.955Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.958Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.970Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.972Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.985Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:26.987Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:27.000Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:27.002Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:27.054Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:27.056Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:27.073Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:27.077Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:27.091Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:27.094Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:27.103Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:27.105Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:27.119Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:27.121Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:27.132Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:27.134Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:27.143Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:27.145Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:27.162Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:27.165Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:27.183Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:27.187Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:27.200Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:27.202Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:27.214Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:27.217Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:27.233Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:27.234Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:27.244Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:27.246Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:27.255Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:27.256Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:27.267Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:27.268Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:27.279Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:27.282Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:27.296Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:27.297Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:27.306Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:27.309Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:27.323Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:27.327Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:27.341Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:27.344Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:27.359Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:27.363Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:27.376Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:27.378Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:27.389Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:27.393Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:27.405Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:27.407Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:27.421Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:27.422Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:27.437Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:27.438Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:28.465Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:28.472Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:29.532Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:29.564Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:30.599Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:30.610Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:32.172Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:32.205Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:33.223Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:47:33.223Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //ion-datetime[@id=\"datetimeQuotation\"]//ion-button[text()=\"ตกลง\"] in page."}
+{"level":30,"time":"2025-04-29T07:47:33.475Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:47:35.488Z","pid":40024,"hostname":"linux","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-04-29T07:47:35.488Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //*[@formcontrolname=\"phoneNumber\"] in page."}
+{"level":30,"time":"2025-04-29T07:47:35.603Z","pid":40024,"hostname":"linux","msg":"End of node method typeText"}
+{"level":30,"time":"2025-04-29T07:47:35.615Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:47:35.615Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //*[@id=\"quotation.refCode\"]//ion-checkbox[text()=\"ไม่มี\"] in page."}
+{"level":30,"time":"2025-04-29T07:47:35.683Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:47:35.694Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:47:35.694Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //ion-fab-button[contains(text(),\"ถัดไป\")] in page."}
+{"level":30,"time":"2025-04-29T07:47:35.771Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:47:35.780Z","pid":40024,"hostname":"linux","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-04-29T07:47:35.780Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //app-plancode//label[contains(text(),\"อาชีพ\")]//following-sibling::app-autocomplete//input in page."}
+{"level":30,"time":"2025-04-29T07:47:36.550Z","pid":40024,"hostname":"linux","msg":"End of node method typeText"}
+{"level":30,"time":"2025-04-29T07:47:36.555Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:47:36.555Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //div[@class=\"ddl-autocomplete\"]//label[text()=\"เจ้าของโรงงาน / บริหารกิจการ\"] in page."}
+{"level":30,"time":"2025-04-29T07:47:36.619Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:47:36.628Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:47:36.628Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //app-plancode//button[@id=\"quotation.planList.ol.display\"]//ion-checkbox in page."}
+{"level":30,"time":"2025-04-29T07:47:36.716Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:47:36.720Z","pid":40024,"hostname":"linux","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-04-29T07:47:36.720Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //app-plancode//label[contains(text(),\"แบบประกัน\")]//following-sibling::app-autocomplete//input in page."}
+{"level":30,"time":"2025-04-29T07:47:38.153Z","pid":40024,"hostname":"linux","msg":"End of node method typeText"}
+{"level":30,"time":"2025-04-29T07:47:38.160Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:47:38.160Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //div[@class=\"ddl-autocomplete\"]//label[contains(text(),\"GI49\")] in page."}
+{"level":30,"time":"2025-04-29T07:47:38.235Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:47:38.247Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:47:38.247Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //ion-fab-button[contains(text(),\"ถัดไป\")] in page."}
+{"level":30,"time":"2025-04-29T07:47:38.619Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:47:38.629Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:47:38.629Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //app-plan-detail//input[@id=\"calType1\"] in page."}
+{"level":30,"time":"2025-04-29T07:47:39.593Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:47:39.598Z","pid":40024,"hostname":"linux","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-04-29T07:47:39.598Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //*[@formcontrolname=\"premium\"] in page."}
+{"level":30,"time":"2025-04-29T07:47:39.698Z","pid":40024,"hostname":"linux","msg":"End of node method typeText"}
+{"level":30,"time":"2025-04-29T07:47:39.703Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:47:39.703Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //button[contains(text(),\"คำนวณ\")] in page."}
+{"level":30,"time":"2025-04-29T07:47:39.819Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:47:39.827Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:47:39.827Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //ion-fab-button[contains(text(),\"ถัดไป\")] in page."}
+{"level":30,"time":"2025-04-29T07:47:40.367Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:47:40.376Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:47:40.376Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //ion-fab-button[contains(text(),\"ถัดไป\")] in page."}
+{"level":30,"time":"2025-04-29T07:47:42.049Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:47:43.090Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:43.113Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:43.118Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:47:43.118Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //*[@id=\"header\"]/ion-toolbar[2]/ion-segment/ion-segment-button[1] in page."}
+{"level":30,"time":"2025-04-29T07:47:45.075Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:47:45.090Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:47:45.091Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //button[contains(text(),\"สร้างผู้มุ่งหวัง\")] in page."}
+{"level":30,"time":"2025-04-29T07:47:46.184Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:47:46.193Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:47:46.193Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //app-quotation//label[contains(text(),\"คำนำหน้า\")]/following-sibling::div//input in page."}
+{"level":30,"time":"2025-04-29T07:47:46.761Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:47:46.765Z","pid":40024,"hostname":"linux","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-04-29T07:47:46.765Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //app-quotation//label[contains(text(),\"คำนำหน้า\")]/following-sibling::div//input in page."}
+{"level":30,"time":"2025-04-29T07:47:46.805Z","pid":40024,"hostname":"linux","msg":"End of node method typeText"}
+{"level":30,"time":"2025-04-29T07:47:46.813Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:47:46.813Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //*[@id=\"suggestions\"]//*[text()=\"นาย\"] in page."}
+{"level":30,"time":"2025-04-29T07:47:46.899Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:47:46.904Z","pid":40024,"hostname":"linux","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-04-29T07:47:46.904Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //app-quotation//input[@formcontrolname=\"firstname\"] in page."}
+{"level":30,"time":"2025-04-29T07:47:46.949Z","pid":40024,"hostname":"linux","msg":"End of node method typeText"}
+{"level":30,"time":"2025-04-29T07:47:46.955Z","pid":40024,"hostname":"linux","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-04-29T07:47:46.955Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //app-quotation//input[@formcontrolname=\"lastname\"] in page."}
+{"level":30,"time":"2025-04-29T07:47:47.003Z","pid":40024,"hostname":"linux","msg":"End of node method typeText"}
+{"level":30,"time":"2025-04-29T07:47:47.012Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:47:47.012Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //app-quotation//input[@formcontrolname=\"dateOfBirth\"] in page."}
+{"level":30,"time":"2025-04-29T07:47:47.149Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:47:48.174Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.189Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.199Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.258Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.269Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.270Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.286Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.287Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.300Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.302Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.313Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.315Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.327Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.330Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.340Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.342Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.361Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.364Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.380Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.382Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.398Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.400Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.411Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.414Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.430Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.432Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.442Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.444Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.453Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.456Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.465Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.467Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.477Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.480Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.491Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.495Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.514Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.516Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.533Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.535Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.550Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.552Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.564Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.566Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.583Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.585Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.597Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.598Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.609Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.610Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.618Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.620Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.631Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.632Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.644Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.646Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.664Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.666Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.682Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.684Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.698Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.700Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.715Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.717Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.734Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.736Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.747Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.749Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.759Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.761Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.770Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.773Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.782Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.784Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.799Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.801Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.819Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.823Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.843Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.847Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.865Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.866Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.884Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.886Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.900Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.902Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.915Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.917Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.927Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.930Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.938Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.941Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.951Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.952Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.963Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.964Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.974Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.976Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.990Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:48.993Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:49.008Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:49.011Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:49.027Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:49.029Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:49.045Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:49.048Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:49.059Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:49.062Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:49.076Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:49.078Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:49.087Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:49.090Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:49.100Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:49.101Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:49.113Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:49.114Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:49.125Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:49.128Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:49.144Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:49.147Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:49.165Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:49.167Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:49.183Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:49.185Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:50.228Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:50.239Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:51.295Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:51.338Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:52.367Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:52.386Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:53.946Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:53.959Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:47:54.967Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:47:54.967Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //ion-datetime[@id=\"datetimeQuotation\"]//ion-button[text()=\"ตกลง\"] in page."}
+{"level":30,"time":"2025-04-29T07:47:55.100Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:47:57.108Z","pid":40024,"hostname":"linux","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-04-29T07:47:57.108Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //*[@formcontrolname=\"phoneNumber\"] in page."}
+{"level":30,"time":"2025-04-29T07:47:57.207Z","pid":40024,"hostname":"linux","msg":"End of node method typeText"}
+{"level":30,"time":"2025-04-29T07:47:57.219Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:47:57.219Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //*[@id=\"quotation.refCode\"]//ion-checkbox[text()=\"ไม่มี\"] in page."}
+{"level":30,"time":"2025-04-29T07:47:57.305Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:47:57.315Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:47:57.315Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //ion-fab-button[contains(text(),\"ถัดไป\")] in page."}
+{"level":30,"time":"2025-04-29T07:47:57.401Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:47:57.411Z","pid":40024,"hostname":"linux","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-04-29T07:47:57.411Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //app-plancode//label[contains(text(),\"อาชีพ\")]//following-sibling::app-autocomplete//input in page."}
+{"level":30,"time":"2025-04-29T07:47:58.065Z","pid":40024,"hostname":"linux","msg":"End of node method typeText"}
+{"level":30,"time":"2025-04-29T07:47:58.070Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:47:58.070Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //div[@class=\"ddl-autocomplete\"]//label[text()=\"เจ้าของโรงงาน / บริหารกิจการ\"] in page."}
+{"level":30,"time":"2025-04-29T07:47:58.246Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:47:58.275Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:47:58.276Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //app-plancode//button[@id=\"quotation.planList.ol.display\"]//ion-checkbox in page."}
+{"level":30,"time":"2025-04-29T07:47:58.430Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:47:58.434Z","pid":40024,"hostname":"linux","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-04-29T07:47:58.434Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //app-plancode//label[contains(text(),\"แบบประกัน\")]//following-sibling::app-autocomplete//input in page."}
+{"level":30,"time":"2025-04-29T07:47:59.910Z","pid":40024,"hostname":"linux","msg":"End of node method typeText"}
+{"level":30,"time":"2025-04-29T07:47:59.916Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:47:59.916Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //div[@class=\"ddl-autocomplete\"]//label[contains(text(),\"GI66\")] in page."}
+{"level":30,"time":"2025-04-29T07:48:00.014Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:48:00.024Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:48:00.024Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //ion-fab-button[contains(text(),\"ถัดไป\")] in page."}
+{"level":30,"time":"2025-04-29T07:48:00.459Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:48:00.466Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:48:00.466Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //app-plan-detail//input[@id=\"calType1\"] in page."}
+{"level":30,"time":"2025-04-29T07:48:01.059Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:48:01.065Z","pid":40024,"hostname":"linux","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-04-29T07:48:01.065Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //*[@formcontrolname=\"premium\"] in page."}
+{"level":30,"time":"2025-04-29T07:48:01.167Z","pid":40024,"hostname":"linux","msg":"End of node method typeText"}
+{"level":30,"time":"2025-04-29T07:48:01.174Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:48:01.174Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //button[contains(text(),\"คำนวณ\")] in page."}
+{"level":30,"time":"2025-04-29T07:48:01.311Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:48:01.316Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:48:01.316Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //ion-fab-button[contains(text(),\"ถัดไป\")] in page."}
+{"level":30,"time":"2025-04-29T07:48:02.386Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:48:02.397Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:48:02.397Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //ion-fab-button[contains(text(),\"ถัดไป\")] in page."}
+{"level":30,"time":"2025-04-29T07:48:04.672Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:48:05.693Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:05.716Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:05.722Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:48:05.722Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //*[@id=\"header\"]/ion-toolbar[2]/ion-segment/ion-segment-button[1] in page."}
+{"level":30,"time":"2025-04-29T07:48:07.055Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:48:07.084Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:48:07.084Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //button[contains(text(),\"สร้างผู้มุ่งหวัง\")] in page."}
+{"level":30,"time":"2025-04-29T07:48:08.061Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:48:08.069Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:48:08.069Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //app-quotation//label[contains(text(),\"คำนำหน้า\")]/following-sibling::div//input in page."}
+{"level":30,"time":"2025-04-29T07:48:08.635Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:48:08.641Z","pid":40024,"hostname":"linux","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-04-29T07:48:08.641Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //app-quotation//label[contains(text(),\"คำนำหน้า\")]/following-sibling::div//input in page."}
+{"level":30,"time":"2025-04-29T07:48:08.684Z","pid":40024,"hostname":"linux","msg":"End of node method typeText"}
+{"level":30,"time":"2025-04-29T07:48:08.691Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:48:08.691Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //*[@id=\"suggestions\"]//*[text()=\"นาง\"] in page."}
+{"level":30,"time":"2025-04-29T07:48:08.781Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:48:08.787Z","pid":40024,"hostname":"linux","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-04-29T07:48:08.788Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //app-quotation//input[@formcontrolname=\"firstname\"] in page."}
+{"level":30,"time":"2025-04-29T07:48:08.830Z","pid":40024,"hostname":"linux","msg":"End of node method typeText"}
+{"level":30,"time":"2025-04-29T07:48:08.838Z","pid":40024,"hostname":"linux","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-04-29T07:48:08.838Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //app-quotation//input[@formcontrolname=\"lastname\"] in page."}
+{"level":30,"time":"2025-04-29T07:48:08.876Z","pid":40024,"hostname":"linux","msg":"End of node method typeText"}
+{"level":30,"time":"2025-04-29T07:48:08.883Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:48:08.883Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //app-quotation//input[@formcontrolname=\"dateOfBirth\"] in page."}
+{"level":30,"time":"2025-04-29T07:48:09.032Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:48:10.060Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.071Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.080Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.125Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.136Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.140Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.149Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.151Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.167Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.172Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.185Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.188Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.200Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.204Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.218Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.221Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.235Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.237Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.249Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.250Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.262Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.264Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.274Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.276Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.284Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.287Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.299Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.302Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.321Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.324Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.338Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.341Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.356Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.358Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.369Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.373Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.384Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.387Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.400Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.402Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.415Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.416Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.429Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.430Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.442Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.444Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.453Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.455Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.466Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.468Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.482Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.485Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.504Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.508Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.524Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.526Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.539Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.541Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.549Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.551Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.563Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.565Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.577Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.579Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.590Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.592Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.603Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.605Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.618Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.622Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.636Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.638Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.650Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.653Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.665Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.666Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.682Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.683Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.694Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.695Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.706Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.708Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.716Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.718Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.728Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.730Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.741Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.743Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.758Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.761Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.779Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.781Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.797Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.800Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.814Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.815Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.828Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.830Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.848Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.849Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.862Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.863Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.873Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.876Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.886Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.888Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.897Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.899Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.912Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.914Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.929Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.931Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.948Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.950Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.966Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.968Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.982Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:10.984Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:11.001Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:11.005Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:11.017Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:11.020Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:11.032Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:11.034Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:12.081Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:12.098Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:13.122Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:13.137Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:14.181Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:14.194Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:15.744Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:15.755Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:16.765Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:48:16.766Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //ion-datetime[@id=\"datetimeQuotation\"]//ion-button[text()=\"ตกลง\"] in page."}
+{"level":30,"time":"2025-04-29T07:48:16.890Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:48:18.900Z","pid":40024,"hostname":"linux","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-04-29T07:48:18.901Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //*[@formcontrolname=\"phoneNumber\"] in page."}
+{"level":30,"time":"2025-04-29T07:48:19.030Z","pid":40024,"hostname":"linux","msg":"End of node method typeText"}
+{"level":30,"time":"2025-04-29T07:48:19.037Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:48:19.037Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //*[@id=\"quotation.refCode\"]//ion-checkbox[text()=\"ไม่มี\"] in page."}
+{"level":30,"time":"2025-04-29T07:48:19.111Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:48:19.120Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:48:19.120Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //ion-fab-button[contains(text(),\"ถัดไป\")] in page."}
+{"level":30,"time":"2025-04-29T07:48:19.297Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:48:19.308Z","pid":40024,"hostname":"linux","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-04-29T07:48:19.308Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //app-plancode//label[contains(text(),\"อาชีพ\")]//following-sibling::app-autocomplete//input in page."}
+{"level":30,"time":"2025-04-29T07:48:20.005Z","pid":40024,"hostname":"linux","msg":"End of node method typeText"}
+{"level":30,"time":"2025-04-29T07:48:20.010Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:48:20.011Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //div[@class=\"ddl-autocomplete\"]//label[text()=\"เจ้าของโรงงาน / บริหารกิจการ\"] in page."}
+{"level":30,"time":"2025-04-29T07:48:20.087Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:48:20.098Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:48:20.098Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //app-plancode//button[@id=\"quotation.planList.ol.display\"]//ion-checkbox in page."}
+{"level":30,"time":"2025-04-29T07:48:20.231Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:48:20.237Z","pid":40024,"hostname":"linux","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-04-29T07:48:20.238Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //app-plancode//label[contains(text(),\"แบบประกัน\")]//following-sibling::app-autocomplete//input in page."}
+{"level":30,"time":"2025-04-29T07:48:21.681Z","pid":40024,"hostname":"linux","msg":"End of node method typeText"}
+{"level":30,"time":"2025-04-29T07:48:21.689Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:48:21.690Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //div[@class=\"ddl-autocomplete\"]//label[contains(text(),\"GI64\")] in page."}
+{"level":30,"time":"2025-04-29T07:48:21.795Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:48:21.802Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:48:21.802Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //ion-fab-button[contains(text(),\"ถัดไป\")] in page."}
+{"level":30,"time":"2025-04-29T07:48:22.210Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:48:22.216Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:48:22.216Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //app-plan-detail//input[@id=\"calType1\"] in page."}
+{"level":30,"time":"2025-04-29T07:48:22.743Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:48:22.747Z","pid":40024,"hostname":"linux","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-04-29T07:48:22.748Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //*[@formcontrolname=\"premium\"] in page."}
+{"level":30,"time":"2025-04-29T07:48:22.843Z","pid":40024,"hostname":"linux","msg":"End of node method typeText"}
+{"level":30,"time":"2025-04-29T07:48:22.848Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:48:22.848Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //button[contains(text(),\"คำนวณ\")] in page."}
+{"level":30,"time":"2025-04-29T07:48:22.943Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:48:22.950Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:48:22.950Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //ion-fab-button[contains(text(),\"ถัดไป\")] in page."}
+{"level":30,"time":"2025-04-29T07:48:23.546Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:48:23.556Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:48:23.556Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //ion-fab-button[contains(text(),\"ถัดไป\")] in page."}
+{"level":30,"time":"2025-04-29T07:48:25.742Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:48:26.785Z","pid":40024,"hostname":"linux","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:26.829Z","pid":40024,"hostname":"linux","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-29T07:48:26.838Z","pid":40024,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T07:48:26.838Z","pid":40024,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //*[@id=\"header\"]/ion-toolbar[2]/ion-segment/ion-segment-button[1] in page."}
+{"level":30,"time":"2025-04-29T07:48:28.188Z","pid":40024,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T07:48:28.195Z","pid":40024,"hostname":"linux","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-29T07:48:28.258Z","pid":40024,"hostname":"linux","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-29T07:48:28.263Z","pid":40024,"hostname":"linux","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-29T07:48:28.277Z","pid":40024,"hostname":"linux","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-29T07:48:28.281Z","pid":40024,"hostname":"linux","msg":"Changed active context"}
+{"level":30,"time":"2025-04-29T07:48:28.282Z","pid":40024,"hostname":"linux","msg":"Changing current active page: page=30946836-5a09-4697-85e0-a95fcd8e098b"}
+{"level":30,"time":"2025-04-29T07:48:28.282Z","pid":40024,"hostname":"linux","msg":"Changed active page"}
+{"level":30,"time":"2025-04-29T07:48:28.290Z","pid":40024,"hostname":"linux","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-29T07:48:28.294Z","pid":40024,"hostname":"linux","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-29T07:48:28.297Z","pid":40024,"hostname":"linux","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2025-04-29T07:48:28.298Z","pid":40024,"hostname":"linux","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2025-04-29T07:48:28.306Z","pid":40024,"hostname":"linux","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2025-04-29T07:48:28.307Z","pid":40024,"hostname":"linux","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2025-04-29T07:48:28.313Z","pid":40024,"hostname":"linux","msg":"Changing current active page: page=30946836-5a09-4697-85e0-a95fcd8e098b"}
+{"level":30,"time":"2025-04-29T07:48:28.313Z","pid":40024,"hostname":"linux","msg":"Changed active page"}
+{"level":30,"time":"2025-04-29T07:48:28.326Z","pid":40024,"hostname":"linux","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-29T07:48:28.330Z","pid":40024,"hostname":"linux","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-29T07:48:28.336Z","pid":40024,"hostname":"linux","msg":"Changed active context"}
+{"level":30,"time":"2025-04-29T07:48:28.336Z","pid":40024,"hostname":"linux","msg":"Changing current active page: page=30946836-5a09-4697-85e0-a95fcd8e098b"}
+{"level":30,"time":"2025-04-29T07:48:28.336Z","pid":40024,"hostname":"linux","msg":"Changed active page"}
+{"level":30,"time":"2025-04-29T07:48:28.340Z","pid":40024,"hostname":"linux","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-04-29T07:48:28.358Z","pid":40024,"hostname":"linux","msg":"Removed page=d2822014-f2f5-4886-869e-62895f97cfa9 from context=b547d5f2-0b18-4060-a3a9-63faf77aa37b page stack"}
+{"level":30,"time":"2025-04-29T07:48:28.377Z","pid":40024,"hostname":"linux","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-04-29T07:48:28.391Z","pid":40024,"hostname":"linux","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-29T07:48:28.392Z","pid":40024,"hostname":"linux","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-29T07:48:30.717Z","pid":40024,"hostname":"linux","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-04-29T07:48:30.796Z","pid":40024,"hostname":"linux","msg":"End of node method closeAllBrowsers"}

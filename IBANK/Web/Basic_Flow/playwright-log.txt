@@ -1,0 +1,98 @@
+{"level":30,"time":"2025-07-17T04:01:55.870Z","pid":22447,"hostname":"linux","msg":"Listening on 57735"}
+(node:22447) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-07-17T04:01:55.960Z","pid":22447,"hostname":"linux","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-17T04:01:55.961Z","pid":22447,"hostname":"linux","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-17T04:01:55.969Z","pid":22447,"hostname":"linux","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-17T04:01:55.969Z","pid":22447,"hostname":"linux","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (/home/tluser/.local/lib/python3.8/site-packages/Browser/wrapper/index.js:10748:15)
+    at PlaywrightServer.getActiveBrowser (/home/tluser/.local/lib/python3.8/site-packages/Browser/wrapper/index.js:11364:59)
+    at PlaywrightServer.setTimeout (/home/tluser/.local/lib/python3.8/site-packages/Browser/wrapper/index.js:11603:57)
+    at Object.onReceiveHalfClose (/home/tluser/.local/lib/python3.8/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1425:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/tluser/.local/lib/python3.8/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:569:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/tluser/.local/lib/python3.8/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:609:14)
+    at ServerHttp2Stream.<anonymous> (/home/tluser/.local/lib/python3.8/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2025-07-17T04:01:56.006Z","pid":22447,"hostname":"linux","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-07-17T04:01:56.321Z","pid":22447,"hostname":"linux","msg":"Adding browser to stack: chromium, version: 129.0.6668.29"}
+{"level":30,"time":"2025-07-17T04:01:56.322Z","pid":22447,"hostname":"linux","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-07-17T04:01:56.322Z","pid":22447,"hostname":"linux","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-07-17T04:01:56.329Z","pid":22447,"hostname":"linux","msg":"Start of node method newContext"}
+{"level":30,"time":"2025-07-17T04:01:56.329Z","pid":22447,"hostname":"linux","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-07-17T04:01:56.329Z","pid":22447,"hostname":"linux","msg":"Trace file: "}
+{"level":30,"time":"2025-07-17T04:01:56.342Z","pid":22447,"hostname":"linux","msg":"Changed active context"}
+{"level":30,"time":"2025-07-17T04:01:56.342Z","pid":22447,"hostname":"linux","msg":"End of node method newContext"}
+{"level":30,"time":"2025-07-17T04:01:56.351Z","pid":22447,"hostname":"linux","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-07-17T04:01:56.351Z","pid":22447,"hostname":"linux","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-07-17T04:01:56.510Z","pid":22447,"hostname":"linux","msg":"Video path: undefined"}
+{"level":30,"time":"2025-07-17T04:01:56.510Z","pid":22447,"hostname":"linux","msg":"Changed active page"}
+{"level":30,"time":"2025-07-17T04:02:00.154Z","pid":22447,"hostname":"linux","msg":"End of node method newPage"}
+{"level":30,"time":"2025-07-17T04:02:00.169Z","pid":22447,"hostname":"linux","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-07-17T04:02:00.170Z","pid":22447,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //ion-input[@label=\"รหัสผู้ใช้งาน\"]//input in page."}
+{"level":30,"time":"2025-07-17T04:02:00.300Z","pid":22447,"hostname":"linux","msg":"End of node method typeText"}
+{"level":30,"time":"2025-07-17T04:02:00.307Z","pid":22447,"hostname":"linux","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-07-17T04:02:00.307Z","pid":22447,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //ion-input[@label=\"รหัสผ่าน\"]//input in page."}
+{"level":30,"time":"2025-07-17T04:02:00.362Z","pid":22447,"hostname":"linux","msg":"End of node method typeText"}
+{"level":30,"time":"2025-07-17T04:02:00.369Z","pid":22447,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-07-17T04:02:00.370Z","pid":22447,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //button[contains(text(),\"เข้าสู่ระบบ\")] in page."}
+{"level":30,"time":"2025-07-17T04:02:00.488Z","pid":22447,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-07-17T04:02:00.510Z","pid":22447,"hostname":"linux","msg":"Start of node method click"}
+{"level":30,"time":"2025-07-17T04:02:00.510Z","pid":22447,"hostname":"linux","msg":"Strict mode is enabled, find Locator with //button[contains(text(),\"สร้างผู้มุ่งหวัง\")] in page."}
+{"level":30,"time":"2025-07-17T04:02:03.702Z","pid":22447,"hostname":"linux","msg":"Removed page=7015ed42-5b8f-4b33-8227-07717098c72f from context=411a2b10-5bbb-4805-9b7c-a91051b8700c page stack"}
+{"level":40,"time":"2025-07-17T04:02:03.703Z","pid":22447,"hostname":"linux","msg":"Supress locator.click: Target page, context or browser has been closed error"}
+{"level":30,"time":"2025-07-17T04:02:03.703Z","pid":22447,"hostname":"linux","msg":"End of node method click"}
+{"level":30,"time":"2025-07-17T04:02:03.710Z","pid":22447,"hostname":"linux","msg":"Start of node method click"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/home/tluser/.local/lib/python3.8/site-packages/Browser/wrapper/index.js:9305:11)
+    at findLocator (/home/tluser/.local/lib/python3.8/site-packages/Browser/wrapper/index.js:9262:3)
+    at internalClick (/home/tluser/.local/lib/python3.8/site-packages/Browser/wrapper/index.js:10347:25)
+    at click (/home/tluser/.local/lib/python3.8/site-packages/Browser/wrapper/index.js:10330:24)
+    at PlaywrightServer.click (/home/tluser/.local/lib/python3.8/site-packages/Browser/wrapper/index.js:11377:34)
+    at Object.onReceiveHalfClose (/home/tluser/.local/lib/python3.8/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1425:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/tluser/.local/lib/python3.8/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:569:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/tluser/.local/lib/python3.8/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:609:14)
+    at ServerHttp2Stream.<anonymous> (/home/tluser/.local/lib/python3.8/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+=============================================================
+{"level":30,"time":"2025-07-17T04:02:03.710Z","pid":22447,"hostname":"linux","msg":"Error of node method  click"}
+{"level":30,"time":"2025-07-17T04:02:03.716Z","pid":22447,"hostname":"linux","msg":"Start of node method takeScreenshot"}
+================= Original suppressed error =================
+Error: Tried to take screenshot, but no page was open.
+    at exists (/home/tluser/.local/lib/python3.8/site-packages/Browser/wrapper/index.js:9305:11)
+    at takeScreenshot (/home/tluser/.local/lib/python3.8/site-packages/Browser/wrapper/index.js:9349:3)
+    at PlaywrightServer.takeScreenshot (/home/tluser/.local/lib/python3.8/site-packages/Browser/wrapper/index.js:11377:34)
+    at Object.onReceiveHalfClose (/home/tluser/.local/lib/python3.8/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1425:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/tluser/.local/lib/python3.8/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:569:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/tluser/.local/lib/python3.8/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:609:14)
+    at ServerHttp2Stream.<anonymous> (/home/tluser/.local/lib/python3.8/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2025-07-17T04:02:03.717Z","pid":22447,"hostname":"linux","msg":"Error of node method  takeScreenshot"}
+{"level":30,"time":"2025-07-17T04:02:03.737Z","pid":22447,"hostname":"linux","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-17T04:02:03.738Z","pid":22447,"hostname":"linux","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-17T04:02:03.745Z","pid":22447,"hostname":"linux","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-17T04:02:03.745Z","pid":22447,"hostname":"linux","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-17T04:02:03.750Z","pid":22447,"hostname":"linux","msg":"Changed active context"}
+{"level":30,"time":"2025-07-17T04:02:03.755Z","pid":22447,"hostname":"linux","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-17T04:02:03.755Z","pid":22447,"hostname":"linux","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-17T04:02:03.760Z","pid":22447,"hostname":"linux","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2025-07-17T04:02:03.760Z","pid":22447,"hostname":"linux","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2025-07-17T04:02:03.765Z","pid":22447,"hostname":"linux","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2025-07-17T04:02:03.765Z","pid":22447,"hostname":"linux","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2025-07-17T04:02:03.780Z","pid":22447,"hostname":"linux","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-17T04:02:03.780Z","pid":22447,"hostname":"linux","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-17T04:02:03.786Z","pid":22447,"hostname":"linux","msg":"Changed active context"}
+{"level":30,"time":"2025-07-17T04:02:03.789Z","pid":22447,"hostname":"linux","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-07-17T04:02:03.801Z","pid":22447,"hostname":"linux","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-07-17T04:02:03.813Z","pid":22447,"hostname":"linux","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-17T04:02:03.813Z","pid":22447,"hostname":"linux","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-17T04:02:03.858Z","pid":22447,"hostname":"linux","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-07-17T04:02:04.055Z","pid":22447,"hostname":"linux","msg":"End of node method closeAllBrowsers"}

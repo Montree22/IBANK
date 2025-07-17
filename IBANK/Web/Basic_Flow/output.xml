@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.8.10 on linux)" generated="2025-07-17T11:01:55.206893" rpa="false" schemaversion="5">
+<suite id="s1" name="E Selling Case" source="/home/tluser/rb-fw/E-Selling/IBANK/Web/Basic_Flow/E_Selling_Case.robot">
+<test id="s1-t1" name="TestCase" line="6">
+<kw name="Open E-Selling Website" owner="CommonKeywords">
+<kw name="Set Up Browser Fullscreen" owner="CommonKeywords">
+<kw name="Set Browser Timeout" owner="Browser">
+<arg>${browser_timeout_new_context}</arg>
+<tag>Config</tag>
+<tag>Setter</tag>
+<doc>Sets the timeout used by most input and getter keywords.</doc>
+<status status="PASS" start="2025-07-17T11:01:55.978887" elapsed="0.014307"/>
+</kw>
+<kw name="Create List" owner="BuiltIn">
+<msg time="2025-07-17T11:01:55.994230" level="INFO">${active_context} = []</msg>
+<var>${active_context}</var>
+<doc>Returns a list containing given items.</doc>
+<status status="PASS" start="2025-07-17T11:01:55.993757" elapsed="0.000578"/>
+</kw>
+<kw name="Get Variable Value" owner="BuiltIn">
+<msg time="2025-07-17T11:01:55.997097" level="INFO">${active_context_list} = []</msg>
+<var>${active_context_list}</var>
+<arg>$CONTEXT_LIST</arg>
+<arg>${active_context}</arg>
+<doc>Returns variable value or ``default`` if the variable does not exist.</doc>
+<status status="PASS" start="2025-07-17T11:01:55.994816" elapsed="0.002421"/>
+</kw>
+<kw name="Get Length" owner="BuiltIn">
+<msg time="2025-07-17T11:01:55.998468" level="INFO">Length is 0.</msg>
+<msg time="2025-07-17T11:01:55.998745" level="INFO">${active_context_length} = 0</msg>
+<var>${active_context_length}</var>
+<arg>${active_context_list}</arg>
+<doc>Returns and logs the length of the given item as an integer.</doc>
+<status status="PASS" start="2025-07-17T11:01:55.997841" elapsed="0.000984"/>
+</kw>
+<if>
+<branch type="IF" condition="${active_context_length} == 0">
+<kw name="New Browser" owner="Browser">
+<msg time="2025-07-17T11:01:56.002294" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "/home/tluser/rb-fw/E-Selling/IBANK/Web/Basic_Flow/browser/traces/572113d5-57f1-492f-b86c-535ea28180a0"}</msg>
+<msg time="2025-07-17T11:01:56.323985" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"/home/tluser/rb-fw/E-Selling/IBANK/Web/Basic_Flow/browser/traces/572113d5-57f1-492f-b86c-535ea28180a0"}</msg>
+<arg>browser=${browser}</arg>
+<arg>headless=${headless}</arg>
+<arg>downloadsPath=${downloads_path}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2025-07-17T11:01:55.999957" elapsed="0.324284"/>
+</kw>
+<kw name="New Context" owner="Browser">
+<msg time="2025-07-17T11:01:56.326569" level="INFO">{
+  "acceptDownloads": true,
+  "bypassCSP": false,
+  "forcedColors": "none",
+  "ignoreHTTPSErrors": false,
+  "javaScriptEnabled": true,
+  "offline": false,
+  "reducedMotion": "no-preference",
+  "serviceWorkers": "allow",
+  "viewport": {
+    "width": 1900,
+    "height": 1000
+  }
+}</msg>
+<msg time="2025-07-17T11:01:56.344270" level="INFO">Successfully created context. </msg>
+<msg time="2025-07-17T11:01:56.344404" level="INFO">{'acceptDownloads': True, 'bypassCSP': False, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'width': 1900, 'height': 1000}}</msg>
+<msg time="2025-07-17T11:01:56.344620" level="INFO">${id_context} = context=411a2b10-5bbb-4805-9b7c-a91051b8700c</msg>
+<var>${id_context}</var>
+<arg>acceptDownloads=${True}</arg>
+<arg>ignoreHTTPSErrors=${ignore_ssl_certificate}</arg>
+<arg>viewport=${window_fullscreen_size}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new BrowserContext with specified options.</doc>
+<status status="PASS" start="2025-07-17T11:01:56.324665" elapsed="0.020011"/>
+</kw>
+<status status="PASS" start="2025-07-17T11:01:55.999216" elapsed="0.345595"/>
+</branch>
+<branch type="ELSE">
+<kw name="New Context" owner="Browser">
+<var>${id_context}</var>
+<arg>acceptDownloads=${True}</arg>
+<arg>ignoreHTTPSErrors=${ignore_ssl_certificate}</arg>
+<arg>viewport=${window_fullscreen_size}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new BrowserContext with specified options.</doc>
+<status status="NOT RUN" start="2025-07-17T11:01:56.345197" elapsed="0.000065"/>
+</kw>
+<status status="NOT RUN" start="2025-07-17T11:01:56.344889" elapsed="0.000509"/>
+</branch>
+<status status="PASS" start="2025-07-17T11:01:55.999117" elapsed="0.346346"/>
+</if>
+<kw name="Append To List" owner="Collections">
+<arg>${active_context_list}</arg>
+<arg>${id_context}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-07-17T11:01:56.345656" elapsed="0.000439"/>
+</kw>
+<kw name="Set Suite Variable" owner="BuiltIn">
+<msg time="2025-07-17T11:01:56.346790" level="INFO">${CONTEXT_LIST} = ['context=411a2b10-5bbb-4805-9b7c-a91051b8700c']</msg>
+<arg>\${CONTEXT_LIST}</arg>
+<arg>${active_context_list}</arg>
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<status status="PASS" start="2025-07-17T11:01:56.346345" elapsed="0.000536"/>
+</kw>
+<return>
+<value>${id_context}</value>
+<status status="PASS" start="2025-07-17T11:01:56.347003" elapsed="0.000110"/>
+</return>
+<tag>keyword_action</tag>
+<doc>browser=chromium (Google Chrome, Microsoft Edge (since 2020), Opera)
+browser=firefox (Mozilla Firefox)
+browser=webkit (Apple Safari, Mail, AppStore on MacOS and iOS)</doc>
+<status status="PASS" start="2025-07-17T11:01:55.975382" elapsed="0.371969"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2025-07-17T11:02:00.157293" level="INFO">Successfully initialized new page object and opened url: https://sit-partners-salestools.thailife.com/partnership-sales-tools-web/#/login</msg>
+<arg>https://sit-partners-salestools.thailife.com/partnership-sales-tools-web/#/login</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2025-07-17T11:01:56.347580" elapsed="3.810501"/>
+</kw>
+<status status="PASS" start="2025-07-17T11:01:55.973593" elapsed="4.184891"/>
+</kw>
+<kw name="Login E-Selling" owner="Login">
+<kw name="Input User ID" owner="Login">
+<kw name="Type Text" owner="Browser">
+<msg time="2025-07-17T11:02:00.163209" level="INFO">Types the text 'IBANK' in the given field.</msg>
+<arg>//ion-input[@label="รหัสผู้ใช้งาน"]//input</arg>
+<arg>${user}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Types the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-07-17T11:02:00.161889" elapsed="0.140311"/>
+</kw>
+<arg>${user}</arg>
+<status status="PASS" start="2025-07-17T11:02:00.160615" elapsed="0.141871"/>
+</kw>
+<kw name="Input Password ID" owner="Login">
+<kw name="Type Text" owner="Browser">
+<msg time="2025-07-17T11:02:00.304544" level="INFO">Types the text '1234' in the given field.</msg>
+<arg>//ion-input[@label="รหัสผ่าน"]//input</arg>
+<arg>${password}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Types the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-07-17T11:02:00.303714" elapsed="0.060532"/>
+</kw>
+<arg>${password}</arg>
+<status status="PASS" start="2025-07-17T11:02:00.302971" elapsed="0.061656"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2025-07-17T11:02:00.366507" level="INFO">Clicks the element '//button[contains(text(),"เข้าสู่ระบบ")]'.</msg>
+<arg>//button[contains(text(),"เข้าสู่ระบบ")]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-07-17T11:02:00.365240" elapsed="0.127552"/>
+</kw>
+<arg>IBANK</arg>
+<arg>1234</arg>
+<status status="PASS" start="2025-07-17T11:02:00.159203" elapsed="0.334274"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-07-17T11:02:00.496060" level="INFO">testcase1</msg>
+<arg>testcase1</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-07-17T11:02:00.495121" elapsed="0.001436"/>
+</kw>
+<kw name="Create Prospect" owner="Quotation">
+<kw name="Click" owner="Browser">
+<msg time="2025-07-17T11:02:00.503356" level="INFO">Clicks the element '//button[contains(text(),"สร้างผู้มุ่งหวัง")]'.</msg>
+<arg>//button[contains(text(),"สร้างผู้มุ่งหวัง")]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-07-17T11:02:00.500877" elapsed="3.203968"/>
+</kw>
+<status status="PASS" start="2025-07-17T11:02:00.498568" elapsed="3.206501"/>
+</kw>
+<kw name="Select Prospect Prename" owner="Quotation">
+<kw name="Click" owner="Browser">
+<msg time="2025-07-17T11:02:03.707068" level="INFO">Clicks the element '//app-quotation//label[contains(text(),"คำนำหน้า")]/following-sibling::div//input'.</msg>
+<msg time="2025-07-17T11:02:03.719092" level="INFO">Keyword 'Take Screenshot  fail-screenshot-{index}' could not be run on failure:
+Error: Tried to take screenshot, but no page was open.</msg>
+<msg time="2025-07-17T11:02:03.719438" level="INFO">See also file:///home/tluser/rb-fw/E-Selling/IBANK/Web/Basic_Flow/playwright-log.txt for additional details.</msg>
+<msg time="2025-07-17T11:02:03.719789" level="FAIL">Error: Could not find active page</msg>
+<arg>//app-quotation//label[contains(text(),"คำนำหน้า")]/following-sibling::div//input</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="FAIL" start="2025-07-17T11:02:03.706259" elapsed="0.016166">Error: Could not find active page</status>
+</kw>
+<kw name="Type Text" owner="Browser">
+<arg>//app-quotation//label[contains(text(),"คำนำหน้า")]/following-sibling::div//input</arg>
+<arg>${prename}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Types the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="NOT RUN" start="2025-07-17T11:02:03.723054" elapsed="0.000182"/>
+</kw>
+<kw name="Click" owner="Browser">
+<arg>//*[@id="suggestions"]//*[text()="${prename}"]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="NOT RUN" start="2025-07-17T11:02:03.723761" elapsed="0.000185"/>
+</kw>
+<arg>นาย</arg>
+<status status="FAIL" start="2025-07-17T11:02:03.705604" elapsed="0.018871">Error: Could not find active page</status>
+</kw>
+<kw name="Input First Name" owner="Quotation">
+<arg>ทดสอบ</arg>
+<status status="NOT RUN" start="2025-07-17T11:02:03.725158" elapsed="0.000119"/>
+</kw>
+<kw name="Input Last Name" owner="Quotation">
+<arg>ระบบ</arg>
+<status status="NOT RUN" start="2025-07-17T11:02:03.725739" elapsed="0.000099"/>
+</kw>
+<kw name="Select Birthdate" owner="Quotation">
+<arg>11</arg>
+<arg>01</arg>
+<arg>2538</arg>
+<doc>เลือกวัน,เดือน,ปีเกิด</doc>
+<status status="NOT RUN" start="2025-07-17T11:02:03.726285" elapsed="0.000099"/>
+</kw>
+<kw name="Input Telno" owner="Quotation">
+<arg>0992263861</arg>
+<status status="NOT RUN" start="2025-07-17T11:02:03.727309" elapsed="0.000359"/>
+</kw>
+<kw name="Input Referral Code" owner="Quotation">
+<arg>ไม่มี</arg>
+<status status="NOT RUN" start="2025-07-17T11:02:03.728500" elapsed="0.000117"/>
+</kw>
+<kw name="Go Next Page" owner="Quotation">
+<status status="NOT RUN" start="2025-07-17T11:02:03.729186" elapsed="0.000121"/>
+</kw>
+<kw name="Select Occupation" owner="Quotation">
+<arg>กรรมกร / ก่อสร้างทั่วไป</arg>
+<status status="NOT RUN" start="2025-07-17T11:02:03.729824" elapsed="0.000138"/>
+</kw>
+<kw name="Select Type" owner="Quotation">
+<arg>CL</arg>
+<status status="NOT RUN" start="2025-07-17T11:02:03.730678" elapsed="0.000134"/>
+</kw>
+<kw name="Select Plan" owner="Quotation">
+<arg>ตะกาฟุลคุ้มครองสินเชื่อ แบบตะซาบุต (MG01)</arg>
+<status status="NOT RUN" start="2025-07-17T11:02:03.731381" elapsed="0.000119"/>
+</kw>
+<kw name="Go Next Page" owner="Quotation">
+<status status="NOT RUN" start="2025-07-17T11:02:03.732037" elapsed="0.000128"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2025-07-17T11:02:03.732624" elapsed="0.000112"/>
+</kw>
+<msg time="2025-07-17T11:02:03.740986" level="INFO">Switching context to context=411a2b10-5bbb-4805-9b7c-a91051b8700c in CURRENT</msg>
+<msg time="2025-07-17T11:02:03.752217" level="INFO">Successfully changed active context: context=411a2b10-5bbb-4805-9b7c-a91051b8700c</msg>
+<msg time="2025-07-17T11:02:03.756729" level="INFO">Switching browser to CURRENT</msg>
+<msg time="2025-07-17T11:02:03.761276" level="INFO">Returned active browser id. CURRENT</msg>
+<msg time="2025-07-17T11:02:03.761650" level="INFO">Switching browser to browser=2c57643a-6ec7-41c8-9b32-c897004c2887</msg>
+<msg time="2025-07-17T11:02:03.767742" level="INFO">Successfully changed active browser: browser=2c57643a-6ec7-41c8-9b32-c897004c2887</msg>
+<msg time="2025-07-17T11:02:03.768148" level="INFO">Switching context to CURRENT in CURRENT</msg>
+<msg time="2025-07-17T11:02:03.774324" level="INFO">Returned active context id: CURRENT</msg>
+<msg time="2025-07-17T11:02:03.776917" level="INFO">Switching context to context=411a2b10-5bbb-4805-9b7c-a91051b8700c in CURRENT</msg>
+<msg time="2025-07-17T11:02:03.788757" level="INFO">Successfully changed active context: context=411a2b10-5bbb-4805-9b7c-a91051b8700c</msg>
+<msg time="2025-07-17T11:02:03.802600" level="INFO">Successfully closed Context</msg>
+<status status="FAIL" start="2025-07-17T11:01:55.965156" elapsed="7.768127">Error: Could not find active page</status>
+</test>
+<status status="FAIL" start="2025-07-17T11:01:55.208095" elapsed="8.595937"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="E Selling Case" id="s1" pass="0" fail="1" skip="0">E Selling Case</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
